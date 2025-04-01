@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ocr-container {
+  @apply flex justify-center items-center min-h-screen bg-gray-50 px-4;
+}
+
+.ocr-card {
+  @apply w-full max-w-md p-6 bg-white rounded-2xl shadow-lg border border-gray-200;
+}
+
+.ocr-title {
+  @apply text-xl font-semibold text-gray-800 mb-4 text-center;
+}
+
+.ocr-form-group {
+    @apply grid gap-2 pb-4; /* <-- added padding-bottom */
+  }
+
+.ocr-label {
+  @apply text-sm text-gray-600;
+}
+
+.ocr-file-input {
+  @apply cursor-pointer border-gray-300 file:bg-taxblue-500 file:text-white file:font-medium file:px-4 file:py-2 file:rounded-lg file:border-0 hover:file:bg-taxblue-600;
+}
+
+.ocr-note {
+  @apply mt-3 text-xs text-gray-400 text-center;
+}

@@ -1,0 +1,21 @@
+{
+    "name": "ITYaar",
+    "version": "1.0.0",
+    "description": "Your AI Powered ITR assistant",
+    "manifest_version": 3,
+    "author": "StackUnderflow",
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
