@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY= os.getenv("OPENAI_KEY") # Replace with your actual API key
 print(OPENAI_API_KEY)
 # OPENAI_API_KEY = os.getenv("GPT_API_KEY")
 # print(OPENAI_API_KEY)

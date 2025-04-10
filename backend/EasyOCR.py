@@ -11,7 +11,7 @@ import openai
 reader = easyocr.Reader(['en'])
 
 # OpenAI API key
-openai.api_key = "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"  # Replace with your actual API key
+openai.api_key =  os.getenv("OPENAI_KEY") # Replace with your actual API key
 
 
 def get_structured_json(extracted_text):
