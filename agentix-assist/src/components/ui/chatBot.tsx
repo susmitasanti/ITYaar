@@ -35,7 +35,7 @@ export default function TaxAIChatbot() {
         },
         {
           headers: {
-            Authorization: `Bearer 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`,
+			Authorization: `Bearer ${import.meta.env.VITE_OPENAI_KEY}`,
             "Content-Type": "application/json",
           },
         }
