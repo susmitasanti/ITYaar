@@ -75,10 +75,6 @@ Provides personalized investment suggestions to minimize tax burden.
 - **Chatbot for Tax Queries** - Answers FAQs on deductions, exemptions, and filing.
 - **Voice-Enabled UI** - Users can interact via voice commands for accessibility.
 
-## 📌 Features To Be Implemented
-- 🧩 Google Chrome Extension
-- 🤖 Chatbot for Tax Queries
-
 ## 🚀 Future Objectives
 - 🔗 Linking PAN & Aadhaar to fetch Form-16 directly
 - 📈 Expand to Business ITR (ITR-3, ITR-4)
